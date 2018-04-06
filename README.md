@@ -1,2 +1,2 @@
-# react
+# React
 Learning react the right way
