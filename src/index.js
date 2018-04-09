@@ -1,13 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import SearchBar from './components/search_bar'
 
-var App = ()=>{
+let App = ()=>{
     return(
         <div>
-           Hi
+           <SearchBar />
         </div>
     );
-}
+};
 
-ReactDOM.render( <App />, document.querySelector('.container'));
+// add that component on the page(DOM).
+ReactDOM.render(<App />, document.querySelector('.container'));
